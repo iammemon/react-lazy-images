@@ -1,0 +1,22 @@
+.img-container{
+    position: relative;
+    background-size:100% 100%; 
+    image-rendering: pixelated;
+}
+
+.img-container > img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+.fade-in{
+    animation: fade-in 2s
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 1}
+}

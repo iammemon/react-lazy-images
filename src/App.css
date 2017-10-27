@@ -1,0 +1,23 @@
+.App{
+    text-align: center;
+}
+.App>h1{
+    font-family: 'Englebert', sans-serif;
+    font-size: 7.5vw;
+    border: 10px solid black;
+    width: 70vw;
+    line-height: 1;
+    padding: 30px 20px; 
+    margin: 20px auto;
+
+}
+.container{
+ margin: 0 auto;
+ width: 70vw;
+}
+.container>*:first-child{
+    margin-top: 20vh;
+}
+.container>*:not(:last-child){
+    margin-bottom: 40vh;
+}
